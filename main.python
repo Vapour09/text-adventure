@@ -1,0 +1,41 @@
+player = {
+    "name" : "noctis",
+    "gold" : 0, 
+    "health" : 100, 
+    "weapon" : "rusty sword", 
+    "inventory" : ["torch","bread"]
+} 
+ 
+
+print("door1 or door2") 
+choice=input("choose:") 
+if choice=="door1":
+    print("You have chosen door 1 goodluck truly") 
+    print("You have entered the door and appear in a dark cave")
+    print("You check your inventory")
+    print(player ["inventory"])  
+    print("lucky for you you have a torch and so you light it and see a strange man in front of you") 
+    player["inventory"].remove("torch") 
+    print("He says hes starving and has been struggling to find food")
+    print("you dont have any food youre sure of that but no doesnt exactly seem like an option here even though it is the truth")
+    print("you have a choice explain the situation and hope he understands or just run away and hope you can make it alive") 
+    print("what will it be run or explain")
+    choice=input("choose:") 
+    if choice=="run": 
+        print("you chose to run away but you only lasted so long while he was nearing closer and you made a decison to use your sword and attack him")
+        print("he fell quickly incredibly quickly almost as though he had no energy to begin with")
+        print("mustve been without food for days")
+
+    elif choice=="explain": 
+        print("you try to explain and you even show him but it seemingly falls on deaf ears")
+        print("and he pulls out a small pocket knife to attack you, so you attack him on pure instinct but you feel a sense of remorse")
+        
+    
+    
+    
+    
+    
+    
+    
+elif choice=="door2": 
+    print("You have chosen door 2") 
